@@ -28,7 +28,7 @@ export const Projects:Projects[] = [
         description:"Full-stack code execution platform supporting 200+ users, integrating real-time updates and version control, and independently optimized CRUD operations for smooth multi-user collaboration.",
         image:"/codereader.png",
         techUsed:["React-Vite" , "JavaScript" , "ExpressJS","TailwindCSS"],
-        liveLink:"https://codereaderapp2.netlify.app/login",
+        liveLink:"https://codereaderapp2.netlify.app/",
         githubLink:"https://github.com/RAHUl-CHAUDHARY01/Code-Reader"
     },
     {
