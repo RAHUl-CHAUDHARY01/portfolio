@@ -20,7 +20,7 @@ export default function Experience(){
                 <div className="w-full">
                     <div className="flex justify-between items-center">
                         <div><h1 className="font-bold">HCLTech</h1></div>
-                        <div><h1 className="text-sm text-black/70">July 2025 - Nov 2025 </h1></div>
+                        <div><h1 className="text-sm text-black/70">July 2025 - Sep 2025 </h1></div>
                     </div>
                     <span className="text-sm font-normal text-black/70">Software Developer Intern</span>
                     
