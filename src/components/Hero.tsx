@@ -23,15 +23,15 @@ export default function HeroSection() {
           className="rounded-full border shadow-xl"
         />
       </div>
-      <div className="text-center md:text-left px-4 md:px-0 max-w-2xl">
+      <div className="text-center md:text-left px-4 md:px-0 max-w-2xl text-black">
         <h1 className={`text-2xl md:text-3xl font-medium`}>Hey there,</h1>
         <h1 className={`text-4xl md:text-5xl font-semibold`}>
           I&apos;m{" "}
           <span className={`${font.className} font-black`}>
-            <AuroraText colors={["cyan", "cyan"]}>Rahul</AuroraText>
+            <AuroraText colors={["orange", "orange"]}>Rahul</AuroraText>
           </span>
         </h1>
-        <p className="text-primary/70 py-3 text-md">
+        <p className="text-black/70 py-3 text-md">
           I&apos;m a full-stack developer, turning ideas into
           production-ready products—handling everything from concept to
           deployment with a complete modern tech stack.
@@ -44,7 +44,7 @@ export default function HeroSection() {
           </Link>
           <Link
             href={
-              "https://drive.google.com/file/d/1MJRkw-5JFDT6WkzhnlAH1eQAJGQTudE2/view"
+              "https://drive.google.com/file/d/1Hq6ldzjYT1XgDi7yz4rYdHpCIjYCrzSk/view?usp=sharing"
             }
             target="_blank"
           >
@@ -90,12 +90,12 @@ export default function HeroSection() {
       <div className="hidden h-full md:block">
         <Image
           src={
-            "/rahul.jpg"
+            "/rahul.jpeg"
           }
           height={500}
           width={500}
           alt="rahul&apos;s image"
-          className="rounded-full border shadow-xl w-[95%]"
+          className="rounded-full border shadow-xl w-[100%]"
         />
       </div>
     </div>
