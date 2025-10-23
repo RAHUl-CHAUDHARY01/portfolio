@@ -16,7 +16,7 @@ export default function HeroSection() {
     <div className="pt-12 w-full flex flex-col md:flex-row gap-6 md:gap-8 md:justify-between md:items-center relative">
       <div className="flex justify-center md:hidden">
         <Image
-          src="/rahul.jpg"
+          src="/rahul.jpeg"
           height={120}
           width={120}
           alt="rahul  image"

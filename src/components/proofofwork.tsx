@@ -24,11 +24,11 @@ export default function ProofOfWork() {
       <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-5 mt-2 p-2 hover:cursor-default">
         {displayedProjects.map((e, index) => {
           return (
-            <div key={index} className="w-full border-2 border-[#d7d7d7] shadow-lg hover:scale-101 transition rounded-md overflow-hidden">
+            <div key={index} className="ml-2 mr-2  border-2 border-[#d7d7d7] shadow-lg hover:scale-101 transition rounded-md overflow-hidden">
               <div className="overflow-hidden m-2 border rounded-sm">
                 <Image 
                   src={`${e.image}`} 
-                  width={1280} 
+                  width={1180} 
                   height={720} 
                   alt="Project Image" 
                   className="object-cover transition-transform duration-300 -z-10 hover:scale-105"
